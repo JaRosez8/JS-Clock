@@ -1,6 +1,8 @@
 html {
     background: #018ded url('./ebonicembrace.jpg');
-    background-size: cover;
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: 'helvetica neue';
     text-align: center;
     font-size: 10px;
@@ -45,4 +47,17 @@ body {
     transform: rotate(90deg);
     transition: none;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+
+body.night-mode {
+    background: url('./@aiarteuphoria_.jpg'); 
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #044454; /* Light text color */
+}
+
+body.night-mode .clock{
+    border: 20px solid rgb(35, 32, 33);
 }
